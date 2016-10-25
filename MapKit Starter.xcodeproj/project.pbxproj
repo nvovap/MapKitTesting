@@ -13,23 +13,8 @@
 		AF8BE98D1DBF9A4B004A4C0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF8BE98C1DBF9A4B004A4C0A /* Assets.xcassets */; };
 		AF8BE9901DBF9A4B004A4C0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF8BE98E1DBF9A4B004A4C0A /* LaunchScreen.storyboard */; };
 		AF8BE9981DBF9A66004A4C0A /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF8BE9971DBF9A66004A4C0A /* Places.plist */; };
-		AF8BE99C1DBF9B4F004A4C0A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8BE99A1DBF9B4C004A4C0A /* MapKit.framework */; };
-		AF8BE99D1DBF9B4F004A4C0A /* MapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF8BE99A1DBF9B4C004A4C0A /* MapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFC772561DBFA22C0062D617 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC772551DBFA22C0062D617 /* Places.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		AF8BE99E1DBF9B4F004A4C0A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				AF8BE99D1DBF9B4F004A4C0A /* MapKit.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF8BE9821DBF9A4B004A4C0A /* MapKit Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MapKit Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +26,7 @@
 		AF8BE9911DBF9A4B004A4C0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF8BE9971DBF9A66004A4C0A /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 		AF8BE99A1DBF9B4C004A4C0A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AFC772551DBFA22C0062D617 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8BE99C1DBF9B4F004A4C0A /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +43,7 @@
 		AF8BE9791DBF9A4B004A4C0A = {
 			isa = PBXGroup;
 			children = (
+				AFC772551DBFA22C0062D617 /* Places.swift */,
 				AF8BE9971DBF9A66004A4C0A /* Places.plist */,
 				AF8BE9891DBF9A4B004A4C0A /* Main.storyboard */,
 				AF8BE9871DBF9A4B004A4C0A /* ViewController.swift */,
@@ -104,7 +90,6 @@
 				AF8BE97E1DBF9A4B004A4C0A /* Sources */,
 				AF8BE97F1DBF9A4B004A4C0A /* Frameworks */,
 				AF8BE9801DBF9A4B004A4C0A /* Resources */,
-				AF8BE99E1DBF9B4F004A4C0A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -171,6 +156,7 @@
 			files = (
 				AF8BE9881DBF9A4B004A4C0A /* ViewController.swift in Sources */,
 				AF8BE9861DBF9A4B004A4C0A /* AppDelegate.swift in Sources */,
+				AFC772561DBFA22C0062D617 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +319,7 @@
 				AF8BE9961DBF9A4B004A4C0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
