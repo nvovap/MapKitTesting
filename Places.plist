@@ -18,6 +18,16 @@
 		<key>description</key>
 		<string>Welcome to San Francisco!</string>
 		<key>latitude</key>
+		<integer>40</integer>
+		<key>longitude</key>
+		<real>-85.75209381190651</real>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>San Francisco</string>
+		<key>description</key>
+		<string>Welcome to San Francisco!</string>
+		<key>latitude</key>
 		<real>37.7749</real>
 		<key>longitude</key>
 		<real>-122.4194</real>
